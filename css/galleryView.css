@@ -1,0 +1,77 @@
+.galleryViewer{
+  min-height:400px;
+  min-width:300px;
+  display:inline-block;
+  padding:5px;
+  border: 2px solid orange;
+  border-radius:5px;
+}
+
+.galleryViewer .thumb{
+  min-height:50px;
+  min-width:50px;
+  background:orange;
+  display:inline-block;
+  vertical-align:top;
+  margin:3px;
+  border-radius:3px;
+
+}
+
+.galleryViewer .thumb img{
+    vertical-align:middle;
+    border-radius:3px;
+}
+
+.galleryViewer .thumb a:hover img{
+  opacity:0.5;
+}
+
+.image.dialog{
+  display:none;
+  position:fixed;
+  top:30px;
+  left:30px;
+  background:purple;
+  padding:5px;
+  border-radius:10px;
+  box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+  z-index:1;
+}
+
+.image.dialog .header{
+  color:#fff;
+  text-align:center;
+  min-height:20px;
+  cursor:move;
+}
+
+.image.dialog .content{
+  background:#fff;
+}
+
+.image.dialog .info{
+  display:inline-block;
+  padding:5px;
+  display:none;
+}
+
+.image.dialog .closeButton{
+  float:right;
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+}
+
+.image.dialog img{
+  vertical-align:middle;
+}
+
+.image.dialog .footer{
+  text-align:center;
+}
+
+.image.dialog .footer a{
+  color:#fff;
+  padding:0px 3px;
+}
